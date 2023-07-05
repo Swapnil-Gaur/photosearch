@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;/*the container should have screen size*/
+    font-size: 97%;
+}
+#container{
+    text-align: center;
+
+}
+.herotext{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+.search-input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+}
+.searchbtn{
+    height:30px;
+    width: 50px;
+   border: none;
+   background-color: red;
+   color: white;
+   font-weight: bold;
+}
+.info{
+    color: grey;
+    padding-top: 15px;
+    font-size: 1.3em;
+
+}
+#imagecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.result{
+    width:250px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-btn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+.photographer-names{
+    text-decoration: none;
+}
